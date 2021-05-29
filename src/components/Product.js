@@ -7,7 +7,6 @@ import { addToBasket } from '../slices/basketSlice';
 
 const Product = ({ id, title, price, description, category, image }) => {
   const dispatch = useDispatch();
-
   const MAX_RATING = 5;
   const MIN_RATING = 1;
   const [rating] = useState(

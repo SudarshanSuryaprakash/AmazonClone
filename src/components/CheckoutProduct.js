@@ -33,6 +33,13 @@ const CheckoutProduct = ({
   const removeItemFromBasket = () => {
     const product = {
       id,
+      title,
+      price,
+      rating,
+      description,
+      hasPrime,
+      category,
+      image,
     };
     dispatch(removeFromBasket(product));
   };

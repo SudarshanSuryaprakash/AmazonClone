@@ -14,6 +14,7 @@ const ProductFeed = ({ products }) => {
               description={description}
               category={category}
               image={image}
+              id={id}
             />
           );
         })}
